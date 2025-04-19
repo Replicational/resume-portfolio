@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        .row {
+          display: flex;
+          justify-content: space-between;
+        }
+        .right-align {
+          text-align: right;
+          width: 100%;
+        }  
+
+        .top-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap; /* stacks items on smaller screens */
+            text-align: center;
+        }
+
+        .contact-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .contact-links a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+
+        img {
+            width: 200px;
+            border-radius: 10px;
+        } 
+
+        h1 {
+            text-align: center;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 14px;
+            color: #777;
+            border-top: 1px solid #ccc;
+        }
+
+        footer a {
+            color: #777;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+
+      </style>
+</head>
+<body>
+    <h1>Sergs Navarrete</h1>
+
+    <div class="top-section">
+      <img src="./Sergs.jpg" alt="Sergs" />
+    
+      <div class="contact-links">
+        <a href="mailto:navarretesergs@gmail.com">Email</a>
+        <a href="https://linkedin.com/in/sergs-navarrete" target="_blank">LinkedIn</a>
+        <a href="https://github.com/replicational" target="_blank">GitHub</a>
+      </div>
+    </div>
+    
+    <p style="text-align: center;">
+      Looking to be employed in full stack development. Also learning iOS app development.
+    </p>
+    <hr />
+    <h2>Education:</h2>
+    <div class="row">
+        <span><b>UC Davis</b></span>
+        <span><b>Davis, CA</b></span>
+    </div>
+    <div class="row">
+        <span><i>Bachelors of Science in Computer Science</i></span>
+        <span><i>June 2025</i></span>
+    </div>
+    <hr />
+    <h2> Relevant Coursework:</h2>
+    <div class="row">
+        <span><b>ECS 150: Operating Systems</b></span>
+        <span><b>Jan. 2025 -- March 2025</b></span>
+    </div>
+    <div class="row">
+        <span><i>UC Davis</i></span>
+        <span><i>Davis, CA</i></span>
+    </div>
+    <ul>
+        <li>Built a distributed file system with RESTful API support in C++, enabling HTTP-based file operations like read, write, and delete.</li>
+        <li>Implemented on-disk storage structures and directory handling features; validated functionality using curl and custom test cases.</li>
+    </ul>
+    <div class="row">
+        <span><b>ECS 036C: Data Structures</b></span>
+        <span><b>April 2024 -- June 2024</b></span>
+    </div>
+    <div class="row">
+        <span><i>UC Davis</i></span>
+        <span><i>Davis, CA</i></span>
+    </div>
+    <ul>
+        <li>Implemented core data structures and algorithms in C++, including Red-Black Trees, TreeMap, TreeSet, and graph traversal (BFS & DFS) on custom Directed Graphs.</li>
+        <li>Optimized sorting algorithms like Quick Sort with randomized pivoting; used Docker and VS Code to streamline development and ensure reproducible builds.</li>
+    </ul>
+    <hr />
+    <h2>Projects:</h2>
+    <div class="row">
+        <span><b>Google Drive Clone</b> | <i>JavaScript, React, Material-UI, Firebase, VS Code</i></span>
+        <span><b>March 2025 -- April 2025</b></span>
+    </div>
+    <ul>
+        <li>Developed a full-stack Google Drive clone using <b>React</b> and <b>Material-UI</b> to replicate the user interface and
+            functionality of Google Drive.</li>
+        <li>Integrated <b>Firebase Authentication</b> to enable secure user sign-in with Google accounts.</li>
+        <li>Implemented real-time file upload and storage functionality using <b>Firebase Cloud Storage</b>, mimicking core Drive
+            features.</li>
+        <li>Used <b>Visual Studio Code</b> and modular <b>React</b> components to structure the frontend and streamline development
+            in a scalable codebase.</li>
+    </ul>
+    <hr />
+    <h2>Skills:</h2>
+    <p><b>Languages:</b> C/C++, JavaScript, HTML/CSS</p>
+    <p><b>Frameworks:</b> React, Node.js, Material-UI</p>
+    <p><b>Developer Tools:</b> Git, Docker, Google Cloud Platform, VS Code</p>
+    <footer>© 2025 Sergs Navarrete  
+        <!-- <a href="mailto:navarretesergs@gmail.com">Email</a> • 
+        <a href="https://linkedin.com/in/sergs-navarrete" target="_blank">LinkedIn</a> • 
+        <a href="https://github.com/replicational" target="_blank">GitHub</a> -->
+        <br>
+        Built with HTML & CSS
+        <br>Last updated: April 2025
+    </footer>
+</body>
+</html>
